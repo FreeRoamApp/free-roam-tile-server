@@ -1,0 +1,35 @@
+{
+  "options": {
+    "paths": {
+      "root": "/usr/src/app/node_modules/tileserver-gl-styles",
+      "fonts": "fonts",
+      "styles": "styles",
+      "mbtiles": "/mbtiles"
+    }
+  },
+  "styles": {
+    "klokantech-basic": {
+      "style": "klokantech-basic/style.json",
+      "serve_rendered": false,
+      "tilejson": {
+        "bounds": [
+          -179.9999,
+          6.88283,
+          -5.198412,
+          85.04177
+        ]
+      }
+    }
+  },
+  "data": {
+    "free-roam-na": {
+      "mbtiles": "free-roam-na.mbtiles"
+    },
+    "free-roam-us-blm": {
+      "mbtiles": "free-roam-us-blm.mbtiles"
+    },
+    "free-roam-us-usfs": {
+      "mbtiles": "free-roam-us-usfs.mbtiles"
+    }
+  }
+}
