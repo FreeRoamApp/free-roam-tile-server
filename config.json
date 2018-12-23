@@ -8,8 +8,8 @@
     }
   },
   "styles": {
-    "klokantech-basic": {
-      "style": "klokantech-basic/style.json",
+    "modified-klokantech-basic": {
+      "style": "modified-klokantech-basic/style.json",
       "serve_rendered": false,
       "tilejson": {
         "bounds": [
@@ -30,6 +30,18 @@
     },
     "free-roam-us-usfs": {
       "mbtiles": "free-roam-us-usfs.mbtiles"
+    },
+    "free-roam-us-cell-att": {
+      "mbtiles": "free-roam-us-cell-att.mbtiles"
+    },
+    "free-roam-us-cell-sprint": {
+      "mbtiles": "free-roam-us-cell-sprint.mbtiles"
+    },
+    "free-roam-us-cell-tmobile": {
+      "mbtiles": "free-roam-us-cell-tmobile.mbtiles"
+    },
+    "free-roam-us-cell-verizon": {
+      "mbtiles": "free-roam-us-cell-verizon.mbtiles"
     }
   }
 }
